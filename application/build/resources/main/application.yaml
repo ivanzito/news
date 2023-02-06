@@ -1,0 +1,30 @@
+spring:
+  data:
+    mongodb:
+      auto-index-creation: false
+      host: localhost
+      database: news
+      port: 27017
+  application:
+    name: News
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              ReactiveMongoTemplate: DEBUG
+news:
+  api:
+    key: 619a1bce1e924ae3b32fa542c7fe9b3d
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
+
+server:
+  servlet:
+    context-path: /news

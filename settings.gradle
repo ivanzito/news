@@ -1,0 +1,20 @@
+rootProject.name = 'news'
+
+include 'client'
+include 'database'
+include 'usecase'
+include 'application'
+include 'presentation'
+
+include 'client:client-adapter'
+include 'database:database-adapter'
+include 'usecase:usecase-adapter'
+include 'presentation:presentation-adapter'
+include 'controller:controller-adapter'
+
+include 'client:client-port'
+include 'database:database-port'
+include 'usecase:usecase-port'
+include 'presentation:presentation-port'
+include 'controller'
+include 'controller:controller-port'

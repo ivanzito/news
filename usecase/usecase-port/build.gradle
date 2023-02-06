@@ -1,0 +1,5 @@
+dependencies {
+    implementation project(':database:database-port')
+    implementation project(':client:client-port')
+    implementation project(':presentation')
+}

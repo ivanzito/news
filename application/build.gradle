@@ -1,0 +1,10 @@
+dependencies {
+    implementation project(':client:client-adapter')
+    implementation project(':database:database-adapter')
+    implementation project(':usecase:usecase-adapter')
+    implementation project(':presentation:presentation-adapter')
+    implementation project(':controller:controller-adapter')
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+}

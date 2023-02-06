@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(':controller:controller-port')
+    implementation project(':presentation')
+    implementation project(':usecase:usecase-port')
+
+    implementation('org.springframework.boot:spring-boot-starter-validation')
+}

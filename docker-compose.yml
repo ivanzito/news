@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  headline:
+    build: .
+    container_name: headline
+    network_mode: host
+    ports:
+      - "8080:8080"
+
+  mongo:
+    image: mongo
+    container_name: news_mongo
+    network_mode: host
+    ports:
+      - "27017:27017"
+
