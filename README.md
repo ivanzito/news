@@ -1,5 +1,6 @@
 # Headline news
 
+
 Get headlines for your service. You can get the news headlines in two manners,
 one by ***SSE***(server sent events) and other by the famous ***REST***
 
